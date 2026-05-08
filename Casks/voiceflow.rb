@@ -1,6 +1,6 @@
 cask "voiceflow" do
   version "0.4.9"
-  sha256 "8a2c325f606db5ba9ac830828d36950c191e04fb594532ff31b5dc1b3b4385e3"
+  sha256 "7f39c901b86ca1af63b5df5cee52c0009c996ce8bf5617f17f8200fdfc5b1f65"
 
   url "https://github.com/Raunaks068619/VoiceFlow/releases/download/v#{version}/VoiceFlow-Beta.dmg",
       verified: "github.com/Raunaks068619/VoiceFlow/"
