@@ -1,12 +1,12 @@
-cask "voiceflow" do
+cask "verba" do
   version "0.6.1"
   sha256 "53d415efa715d9d4b238dfeb15704260e56f75ce5fc5ccb53123459c8dca1fa1"
 
-  url "https://github.com/Raunaks068619/VoiceFlow/releases/download/v#{version}/VoiceFlow-Beta.dmg",
-      verified: "github.com/Raunaks068619/VoiceFlow/"
-  name "VoiceFlow"
+  url "https://github.com/Raunaks068619/Verba/releases/download/v#{version}/VoiceFlow-Beta.dmg",
+      verified: "github.com/Raunaks068619/Verba/"
+  name "Verba"
   desc "Bilingual (Hindi/English) dictation app with real-time translation"
-  homepage "https://github.com/Raunaks068619/VoiceFlow"
+  homepage "https://github.com/Raunaks068619/Verba"
 
   livecheck do
     url :url
@@ -27,7 +27,7 @@ cask "voiceflow" do
   end
 
   caveats <<~EOS
-    VoiceFlow needs three macOS permissions on first launch:
+    Verba needs three macOS permissions on first launch:
 
       1. Microphone        — click Allow when prompted
       2. Accessibility     — System Settings > Privacy & Security > Accessibility > toggle VoiceFlow ON
