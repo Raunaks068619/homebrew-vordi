@@ -1,16 +1,16 @@
-# Verba
+# Vordi
 
 > Bilingual dictation for macOS. Hold `Fn`, speak Hindi or English, get clean text anywhere.
 
-Native macOS dictation is English-only. Wispr Flow is English-only. Verba is built for the other 600 million people who code-switch Hindi and English all day.
+Native macOS dictation is English-only. Wispr Flow is English-only. Vordi is built for the other 600 million people who code-switch Hindi and English all day.
 
 ## Install
 
 ```bash
-brew install --cask Raunaks068619/verba/verba
+brew install --cask Raunaks068619/vordi/vordi
 ```
 
-That's the whole install. VoiceFlow.app lands in `/Applications`, menu-bar icon appears on first launch.
+That's the whole install. Vordi.app lands in `/Applications`, menu-bar icon appears on first launch.
 
 > Don't have Homebrew? Get it at [brew.sh](https://brew.sh), then run the command above.
 
@@ -22,7 +22,7 @@ That's the whole install. VoiceFlow.app lands in `/Applications`, menu-bar icon 
 
 ## First launch
 
-1. Click the menu-bar icon → **Open Verba** → **Settings**
+1. Click the menu-bar icon → **Open Vordi** → **Settings**
 2. Paste your OpenAI API key
 3. Grant **Microphone** + **Accessibility** permissions when prompted
 4. Hold `Fn` anywhere on your Mac, speak, release. Your words appear at the cursor.
@@ -45,19 +45,19 @@ That's the whole install. VoiceFlow.app lands in `/Applications`, menu-bar icon 
 ## Upgrade
 
 ```bash
-brew upgrade --cask verba
+brew upgrade --cask vordi
 ```
 
 ## Uninstall
 
 ```bash
-brew uninstall --cask verba
+brew uninstall --cask vordi
 ```
 
 To also wipe preferences and logs:
 
 ```bash
-brew uninstall --cask --zap verba
+brew uninstall --cask --zap vordi
 ```
 
 ## Troubleshooting
@@ -66,7 +66,7 @@ brew uninstall --cask --zap verba
 The cask strips Gatekeeper quarantine automatically, but if something went sideways:
 
 ```bash
-xattr -cr /Applications/VoiceFlow.app
+xattr -cr /Applications/Vordi.app
 ```
 
 **`Fn` key does nothing**
